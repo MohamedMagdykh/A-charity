@@ -1,0 +1,2610 @@
+    .s1
+    {
+        position: relative;
+        
+        
+        .carousel-caption
+        {
+            background-image: linear-gradient(180deg,#7ba9ff18,#1f38648a, #1f3864dc);
+
+            bottom: 0;
+            left: 0;
+            right: 0;
+            top: 0;
+            padding-top: 18%;
+            h5
+            {
+                font-size: 3rem;
+                font-family: bold;
+                line-height: 1.4;
+            }
+            .pragraphCarsouel
+            {
+                color: #aaa;
+                font-size: 20px;
+
+
+            }
+
+        }
+        .carousel-indicators 
+        {
+            transform: rotate(90deg);
+            bottom: 50%;
+            margin-right: 90%;
+            margin-left: 0%; 
+            li 
+            {
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                
+            }
+            .active
+            {
+                width: 24px;
+                height: 8px !important;
+                background: url('img/activeWhite.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+
+            }
+
+        }
+        .carousel-item
+        {
+            width: 100%;
+            img
+            {
+                width: 100%;
+                height: 700px;
+                object-fit: cover;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+        }
+        .yellowCurve
+        {
+            position: absolute;
+            z-index: 9;
+            top: 65%;
+        }
+        .blueCurve
+        {
+            position: absolute;
+            right: 0;
+            z-index: 10;
+            top: 25%;
+            .imgs
+            {
+                position: relative;
+                .imgMouse
+                {
+                    position: absolute;
+                    z-index: 11;
+                    width: 100%;
+                    height: auto;
+                    top: 60%;
+                    left: 10%;
+                    color: white;
+                    
+
+                }
+                .line
+                    {
+                        background-image: linear-gradient(180deg,white,rgba(255, 255, 255, 0.623), rgba(255, 255, 255, 0.247));
+                        width: 1%;
+                        height: 200px;
+                        position: absolute;
+                        z-index: 11;
+                        top: 25%;
+                        left: 58%;
+                       
+                    }
+                    
+               
+            }
+        }
+        .pragraphCarsouel
+        {
+            margin-bottom:2% !important
+
+        }
+        .btn-more
+        {
+            a
+            {
+                background-image: linear-gradient(to right,rgb(182, 139, 32),rgb(201, 155, 40),rgb(235, 182, 50));
+                border-radius: 30px;
+                &:hover
+                {
+                    background:white; ;
+                    color: rgb(235, 182, 50) !important;
+                }
+
+            }
+           
+
+        }
+        .part2
+        {
+            background: url('img/caurveBlack.svg');
+            width: 100%;
+            height: 200px;
+            position: absolute;
+            z-index: 8;
+            top: 85%;
+
+            
+
+        }
+        
+    }
+    .s2
+    {
+        
+        width: 100%;
+        margin-top: 7%;
+        margin-bottom: 2%;
+        overflow: hidden;
+        padding-bottom: 20px;
+        padding-top: 10px;
+
+        
+        .proparites
+        {
+            position: relative;
+            z-index: 11;
+            
+            width: 400px;
+            height: 130px;
+            border-radius: 1% 30px 1% 30px;
+            padding-top: 3%;
+            overflow: hidden;
+            box-shadow:3px 3px 5px 6px #ccc;
+
+            .cover
+            {
+                background-image: url('img/bitmap_2.png');
+
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                z-index: 10;
+            }
+            h5
+            {
+                font-weight: bold;
+                color: rgb(255, 255, 255);
+
+            }
+          
+        }
+        .green
+        {
+            background-image: linear-gradient(to right,rgb(124, 226, 0),rgb(124, 226, 0),rgb(181, 255, 91));
+            
+            button
+            {
+                background: rgb(255, 255, 255) !important;
+                color: rgb(124, 226, 0);
+                border-radius: 30px;
+                margin-left: 10%;
+                cursor: pointer;
+                &:hover
+                {
+                    color: white;
+                    background:black !important;
+                }
+            }
+        }
+        .blue
+        {
+            background-image: linear-gradient(to right,rgb(93, 187, 255),rgb(76, 173, 242),rgb(145, 195, 231));
+            button
+            {
+                background: rgb(255, 255, 255) !important;
+                color: rgb(93, 187, 255);
+                border-radius: 30px;
+                margin-left: 10%;
+                cursor: pointer;
+                &:hover
+                {
+                    color: white;
+                    background:black !important;
+                }
+            }
+        }
+        .yellow
+        {
+            background-image: linear-gradient(to right,rgb(236, 156, 68),rgb(236, 156, 68),rgb(252, 179, 102));
+            button
+            {
+                background: rgb(255, 255, 255) !important;
+                color: rgb(236, 156, 68);
+                border-radius: 30px;
+                margin-left: 10%;
+                cursor: pointer;
+                &:hover
+                {
+                    color: white;
+                    background:black !important;
+                }
+            }
+            
+        }
+    }
+    .s3
+    {
+        width: 100%;
+        height: 400px;
+        background:#f5f5f5 ;
+        position: relative;
+        overflow: hidden;
+        .right
+        {
+            background-image: url('img/path-5_2.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 0;
+            right:0;
+            width: 120%;
+            height: 280px;
+            z-index: 11;
+            transform: rotateY(360deg);
+            transform: rotateX(180deg);
+        }
+        .left
+        {
+            background-image: url('img/path-5_2.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 120%;
+            height: 280px;
+            z-index: 11;
+            transform: rotate(180deg);
+        }
+        .carousel
+        {
+            padding-top: 140px;
+            .carousel-indicators
+            {
+                top: 10% !important;
+                bottom: 80% !important;
+                li 
+                {
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    
+                }
+                
+                .active
+                {
+                    width: 24px;
+                    height: 8px !important;
+                    background: url('img/activeBlue.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    
+    
+                }
+               
+
+            }
+            .carousel-inner 
+            {
+                overflow: visible !important;
+
+            }
+            .carousel-item
+            {
+                position: relative;
+                .img
+                {
+                    background-image: url('img/oval-copy-5_5.png');
+                    width: 150px;
+                    height: 150px;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    margin-left: auto;
+                    margin-right: auto;
+                    padding-top:37px ;
+                    
+                    
+                    img
+                    {
+                        width: 50%;
+                        margin-left: auto;
+                        margin-right: auto;
+                        margin-bottom:12%;
+                        
+                    }
+                    
+                    
+                }
+                .pragraphCarsouel
+                {
+                        color: #aaa;
+                        position: absolute;
+                        left: 25%;
+                        right: 25%;
+                        top: 88px;
+                        
+                }
+            }
+        }
+
+    }
+    .s4
+    {
+        height: 500px;
+        width: 100%;
+        
+        position: relative;
+    
+        .cloud
+        {
+            background: url('img/path-7.png');
+            height: 465px;
+            width: 100%;
+            bottom: 0;
+            position: absolute;
+            z-index: 10;
+            overflow: hidden;
+            background-size: 100% 150%;
+            left: 0;
+            right: 0;
+            .cover
+            {
+                background: url('img/dimond.png');
+                z-index: 11;
+                height: 420px;
+                width: 100%;
+                bottom: 0;
+                position: absolute;
+            }
+            .content
+            {
+                position: relative;
+                width: 100%;
+                margin-top: 16%;
+                .img
+                {
+                    background-image: url('img/oval-copy-5_2@3x.png');
+                    width: 150px;
+                    height: 150px;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    margin-left: auto;
+                    margin-right: auto;
+                    padding-top:37px ;
+                    
+                    
+                    img
+                    {
+                        width: 50%;
+                        margin-left: auto;
+                        margin-right: auto;
+                        margin-bottom:12%;
+                        
+                    }
+                    
+                    
+                }
+                .pragraphCarsouel
+                {
+                        color: #aaa;
+                        position: absolute;
+                        left: 25%;
+                        right: 25%;
+                        top: 88px;
+                        
+                }
+
+            }
+        }
+        // .cloud2
+        // {
+            
+        //     background: url('img/path-7.svg');
+        //     height: 950px;
+        //     width: 100%;
+        //     bottom: 0;
+            
+        //     position: absolute;
+        //     z-index: 9;
+         
+          
+        //     background-size: 100% 150%;
+
+          
+        // }
+        .left
+        {
+           
+            width: 100%;
+            height: 350px;
+            position: absolute;
+            left: 15%;
+            bottom: 39%;
+
+
+            .LBlue
+            {
+                background: url('img/bubleBlueR.png');
+                
+                z-index: 11;
+                width: 100px;
+                height: 120px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                .img
+                {
+                    width: 100%;
+                    background-size: cover;
+                    background: url('img/hospice.png') no-repeat center center;
+                    height: 75px;
+                    width: 100px;
+                    
+                }
+                h5
+                {
+                    color: white;
+                    font-size: 1.1rem;
+                    line-height: 0px;
+                }
+              
+
+            }
+            .LYellow
+            {
+                background: url('img/bubleYellowL.png');
+                
+                background-repeat: no-repeat;
+                background-size: cover;
+                z-index: 11;
+                width: 50px;
+                height: 60px;
+                margin-top: 60px;
+                margin-left: -1px;
+                color: white;
+                line-height: 50px;
+                font-size: 11px;
+                
+                
+
+            }
+        }
+        .left2
+        {
+            width: 100%;
+            height: 350px;
+            position: absolute;
+            left: 54%;
+            top: 8%;
+
+            .LBlue
+            {
+                background: url('img/bubleBlueR.png');
+                z-index: 11;
+                width: 100px;
+                height: 120px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                .img
+                {
+                    width: 100%;
+                    background-size: cover;
+                    background: url('img/combined-shape_5.png') no-repeat center center;
+                    height: 75px;
+                    width: 100px;
+                    
+                }
+                h5
+                {
+                    color: white;
+                    font-size: 1.1rem;
+                    line-height: 0px;
+                }
+                
+               
+
+            }
+            .LYellow
+            {
+                background: url('img/bubleYellowL.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                z-index: 11;
+                width: 50px;
+                height: 60px;
+                margin-top: 60px;
+                margin-left: -1px;
+                color: white;
+                line-height: 50px;
+                font-size: 11px;
+
+            }
+        }
+        .right
+        {
+            position: absolute;
+            width: 100%;
+            height: 200px;
+            left: 39%;
+            top: 8%;
+
+            .RBlue
+            {
+                background: url('img/bubleBlueL.png');
+                z-index: 11;
+                width: 100px;
+                height: 120px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                .img
+                {
+                    width: 100%;
+                    background-size: cover;
+                    background: url('img/combined-shape_7.png') no-repeat center center;
+                    height: 75px;
+                    width: 100px;
+                    
+                }
+                h5
+                {
+                    color: white;
+                    font-size: 1rem;
+                    line-height: 0px;
+                }
+                
+
+            }
+            .RYellow
+            {
+                background: url('img/bubleYellowR.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                z-index: 11;
+                width: 50px;
+                height: 60px;
+                margin-top: 60px;
+                margin-right: -1px;
+                color: white;
+                line-height: 50px;
+                font-size: 11px;
+            
+
+            }
+        }
+        .right2
+        {
+            position: absolute;
+            width: 100%;
+            height: 200px;
+            left: 82%;
+            bottom: 79%;
+
+            .RBlue
+            {
+                background: url('img/bubleBlueL.png');
+                z-index: 11;
+                width: 100px;
+                height: 120px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                .img
+                {
+                    width: 100%;
+                    background-size: cover;
+                    background: url('img/combined-shape_4.png') no-repeat center center;
+                    height: 75px;
+                    width: 100px;
+                    
+                }
+                h5
+                {
+                    color: white;
+                    font-size: 1.1rem;
+                    line-height: 0px;
+                }
+
+
+            }
+            .RYellow
+            {
+                background: url('img/bubleYellowR.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                z-index: 11;
+                width: 50px;
+                height: 60px;
+                margin-top: 60px;
+                margin-right: -1px;
+                color: white;
+                line-height: 50px;
+                font-size: 11px;
+
+            }
+        }
+        
+    }
+    .s5
+    {
+        padding-top: 3%;
+        padding-bottom: 12%;
+        background: white;
+        position: relative;
+        object-fit: cover;
+        .carousel-multi-item
+        {
+            padding-left: 12%;
+        }
+        .carousel-indicators
+        {
+             bottom: -12%;
+             li 
+             {
+                 width: 12px;
+                 height: 8px;
+              
+                 background: url('img/oval.png') no-repeat;
+                 
+                 
+             }
+             .active
+             {
+                 width: 24px;
+                 height: 8px !important;
+                 background: url('img/rectangle.png');
+                 background-repeat: no-repeat;
+                 background-size: cover;
+ 
+             }
+
+        }
+        .carousel-item
+        {
+            .row
+            {
+                margin-bottom: 3%;
+                margin-top: 3%;
+               
+
+            }
+            .col-md-3
+            {
+                height: 230px;
+                width: 100%;
+                background: white;
+                margin-right: 20px;
+                margin-left: 20px;
+                border-radius: 30px 30px 30px 10px;
+                box-shadow:3px 3px 5px 6px #ccc;
+                position: relative;
+                .pic
+                {
+                    position: absolute;
+                    left: 15px;
+                    right: 15px;
+                    bottom: 100px;
+                    .cover
+                    {
+                        left: 0;
+                        right: 0 !important;
+                        top: 0;
+                        bottom: 0;
+                        position: absolute;
+                        background-image: linear-gradient(180deg,#fdfdfd00,#2c41661f, #1f3864dc);
+                        border-radius: 30px 30px 30px 10px;
+                        .heart
+                        {
+                            background: url('img/group-20.png') no-repeat;
+                            height: 50px;
+                            width: 50px;
+                            margin: 3%;
+                        }
+                        .heart2
+                        {
+                            background: url('img/group-20_2.png') no-repeat;
+                            height: 50px;
+                            width: 50px;
+                            margin: 3%;
+                        }
+                        h4
+                        {
+                            color: white;
+                            float: right;
+                            margin-right: 5%;
+                            font-size: 1.3rem;
+                        }
+                        p
+                        {
+
+                            color: white;
+                            float: right;
+                            margin-right: 5%;
+                            text-align: right;
+                            
+                        }
+
+                    }
+                    img
+                    {
+                        border-radius: 30px 30px 30px 10px;
+                        width: 100%;
+                        height: 148px;
+                        
+    
+                    }
+
+                }
+                .buttonbtn
+                {
+                    background: white;
+                    color: rgb(146, 146, 146);
+                    border: 1px solid rgba(0, 0, 0, 0.664);
+                    position: absolute;
+                    bottom: 67px;
+                    border-radius: 10px 30px 30px 30px;
+                    font-weight: bold;
+                    cursor: pointer;
+                   
+                    span
+                    {
+                        color: rgb(0, 162, 255);
+                        font-weight: bold;
+                        float: right;
+                    }
+                }
+                .row
+                {
+                    position: absolute;
+                    bottom: 5px;
+                    button
+                    {
+                        border-radius: 30px;
+                        color: white;
+                        background: rgb(48, 60, 90);
+                        cursor: pointer;
+                        &:hover
+                        {
+                            color: white;
+                            background:black ;
+                        }
+                    }
+                    .btn1
+                    {
+                        margin-right: 15px;
+                        margin-left: 15px;
+
+                    }
+
+                }
+              
+
+            }
+        }
+        .imgbutton
+        {
+            background-image: linear-gradient(to right,rgb(88,174,237), rgb(49,103,243));
+            position: absolute;
+            left: 41%;
+            right: 41%;
+            bottom: 5%;
+            width: 18%;
+            height: 50px;
+            border-radius: 30px;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 50px;
+            cursor: pointer;
+            &:hover
+            {
+                color: rgb(49,103,243);
+                background: black;
+            }
+        }
+     
+    }
+    .s6
+    {
+        
+        width: 100%;
+        background: white;
+        position: relative;
+        padding-top: 10%;
+        .cover
+        {
+            background: url("img/blueBow.png") no-repeat;
+            width: 100%;
+            height: 600px;
+            background-size: 100% 100%;
+            .head
+            {
+                
+                position: absolute;
+                margin: auto;
+                width: 100%;
+                top: 25%;
+                text-align: center;
+                display: block;
+               
+                .back
+                {
+                   width: 100px;
+                   height: 100px;
+                    position: relative;
+                    background: url("img/oval-copy-5_2@3x.png");
+                    background-repeat: no-repeat;
+                    background-size: 100% 100%;
+                    padding-top: 10px;
+                    margin-left: auto;
+                    margin-right: auto;
+
+                    
+                  
+                }
+                h4
+                {
+                     position: relative;
+                     color: white;
+                   
+
+                }
+
+            }
+
+        }
+        .col-12
+        {
+            padding-right: 50px;
+            padding-left: 50px;
+            margin-top: 2%;
+            .contentLeft
+            {
+                background: rgba(124, 226, 0, 0.85);
+                height: 250px;
+                width: 75%;
+                margin-left: 25%;
+                border-radius: 40px 0px 40px 0px; 
+                padding: 10px;
+                .border
+                {
+                    border:1px solid rgb(255, 255, 255); 
+                    border-radius: 40px 0px 40px 0px; 
+                    padding-top: 30px;
+                    height: 230px;
+                    img
+                    {
+                        width: 30%;
+                    }
+                    h4
+                    {
+                        margin-top: 10%;
+                        margin-bottom: 10%;
+                    }
+                    button
+                    {
+                        background: rgb(255, 255, 255) !important;
+                        color: rgb(124, 226, 0);
+                        border-radius: 30px;
+                        cursor: pointer;
+                        &:hover
+                        {
+                            color: white;
+                            background:black !important;
+                        }
+                    }
+                
+
+                }
+              
+                
+            }
+            .contentMidel
+            {
+                background: rgba(0, 183, 255, 0.849);
+                height: 250px;
+                width: 75%;
+                margin-left: 12.5%; 
+                border-radius: 40px 0px 40px 0px; 
+                padding: 10px;
+                .border
+                {
+                    border:1px solid rgb(255, 255, 255); 
+                    border-radius: 40px 0px 40px 0px; 
+                    padding-top: 30px;
+                    height: 230px;
+                    img
+                    {
+                        width: 30%;
+                    }
+                    h4
+                    {
+                        margin-top: 10%;
+                        margin-bottom: 10%;
+                    }
+                    button
+                    {
+                        background: rgb(255, 255, 255) !important;
+                        color: rgb(0, 183, 255);
+                        border-radius: 30px;
+                        cursor: pointer;
+                        &:hover
+                        {
+                            color: white;
+                            background:black !important;
+                        }
+                    }
+                
+
+                }
+            }
+            .contentRight
+            {
+                background: rgba(255, 174, 0, 0.849);
+                height: 250px;
+                width: 75%;
+                margin-right: 25%;
+                border-radius: 40px 0px 40px 0px; 
+                padding: 10px;
+                .border
+                {
+                    border:1px solid rgb(255, 255, 255); 
+                    border-radius: 40px 0px 40px 0px; 
+                    padding-top: 30px;
+                    height: 230px;
+                    img
+                    {
+                        width: 30%;
+                    }
+                    h4
+                    {
+                        margin-top: 10%;
+                        margin-bottom: 10%;
+                    }
+                    button
+                    {
+                        background: rgb(255, 255, 255) !important;
+                        color: rgb(255, 174, 0);
+                        border-radius: 30px;
+                        cursor: pointer;
+                        &:hover
+                        {
+                            color: white;
+                            background:black !important;
+                        }
+                    }
+                
+
+                }
+              
+                
+            }
+        }
+     
+
+    }
+    .s7
+    {
+        width: 100%;
+        background: white;
+        position: relative;
+        .container
+        {
+            padding-bottom: 6%;
+            .carousel
+            {
+                .carousel-indicators
+                {
+                     bottom: -12%;
+                     li 
+                     {
+                         width: 12px;
+                         height: 8px;
+                      
+                         background: url('img/oval.png') no-repeat;
+                         
+                         
+                     }
+                     .active
+                     {
+                         width: 24px;
+                         height: 8px !important;
+                         background: url('img/rectangle.png');
+                         background-repeat: no-repeat;
+                         background-size: cover;
+         
+                     }
+        
+                }
+                .carousel-item
+                {
+                    .cover
+                    {
+                        position: relative;
+                        .img2
+                        {
+                            background: url('img/warsha.jpg') no-repeat 100% 100%;
+                            border-radius: 40px 10px 40px 10px;
+                            height: 336px; 
+                            .backblue
+                            {
+                                position: absolute;
+                                right: 0;
+                                top: 0;
+                                bottom: 0;
+                                left: 0;
+                                border-radius: 40px 10px 40px 10px;
+                                background: rgba(48, 102, 244, 0.801);
+                                max-width: 100%;
+                                img
+                                {
+                                    position: absolute;
+                                    right: 10%;
+                                    bottom: 50%;
+                                }
+                                h4
+                                {
+                                    position: absolute;
+                                    right: 10%;
+                                    bottom: 35%;
+                                    color: white;
+    
+                                }
+                                .text{
+                                    position: absolute;
+                                    right: 10%;
+                                    bottom: 15%;
+                                    color: rgb(212, 212, 212);
+                                    text-align: right;
+                                }
+                                .more
+                                {
+                                    position: absolute;
+                                    right: 10%;
+                                    bottom: 5%;
+                                    color: white;
+                                    cursor: pointer;
+    
+                                }
+                            }
+                        }
+                        .img1
+                        {
+                            background: url('img/studio.jpg') no-repeat 100% 100%;
+                            border-radius: 40px 10px 40px 10px;
+                            height: 336px; 
+                            
+                            .backYellow
+                            {
+                                position: absolute;
+                                right: 0;
+                                top: 0;
+                                bottom: 0;
+                                left: 0;
+                                border-radius: 40px 10px 40px 10px;
+                                background: rgba(205, 166, 77, 0.801);
+                                max-width: 100%;
+                                img
+                                {
+                                    position: absolute;
+                                    right: 10%;
+                                    bottom: 50%;
+                                }
+                                h4
+                                {
+                                    position: absolute;
+                                    right: 10%;
+                                    bottom: 35%;
+                                    color: white;
+    
+                                }
+                                .text{
+                                    position: absolute;
+                                    right: 10%;
+                                    bottom: 15%;
+                                    color: rgb(212, 212, 212);
+                                    text-align: right;
+                                }
+                                .more
+                                {
+                                    position: absolute;
+                                    right: 10%;
+                                    bottom: 5%;
+                                    color: white;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                       
+                    }
+                }
+            }
+        }
+        .right
+        {
+            background-image: url('img/path-5_2.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 0;
+            right:0;
+            width: 120%;
+            height: 280px;
+            z-index: 11;
+            transform: rotateY(360deg);
+            transform: rotateX(180deg);
+        }
+        .left
+        {
+            background-image: url('img/path-5_2.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 120%;
+            height: 280px;
+            z-index: 11;
+            transform: rotate(180deg);
+        }
+        .head
+        {
+            width: 100%;
+            background: url('img/bitmap_3.png');
+            padding-top: 10%;
+            padding-bottom: 13%;
+            position: relative;
+            img
+            {
+                position: absolute;
+                margin: auto;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+            }
+
+        }
+        button
+        {
+            background: no-repeat;
+            color:rgb(47, 59, 89) ;
+            border-radius: 30px;
+            border: 1px solid rgb(47, 59, 89);
+            cursor: pointer;
+            margin-bottom: 3%;
+             width: 13%;
+            &:hover
+            {
+                color: white;
+                background:black !important;
+            }
+
+
+        }
+     
+    }
+    .s8
+    {
+        width: 100%;
+        background: white;
+        position: relative;
+        padding: 3%;
+        .head
+        {
+            
+            background: url('img/oval-copy-5_2@3x.png');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            width: 120px;
+            height: 120px;
+            margin-left: auto;
+            margin-right: auto;
+
+           
+            position: relative;
+            img
+            {
+                position: absolute;
+                margin: auto;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+            }
+            h4
+            {
+                color: rgb(74,147, 200);
+                font-size: 1.1rem;
+                font-weight: bold;
+                padding-top: 80%;
+                span
+                {
+                    color: rgb(204,165, 74);
+                    font-weight: bold;
+                    float: left;
+                }
+            }
+
+        }
+        .carousel-control-prev
+        {
+            z-index: 1000;
+            top: 23% !important;
+            left: 68% !important;
+            bottom: 90%; 
+        }
+        .carousel-control-next
+        {
+            z-index: 1000;
+            top: 23% !important;
+            left: 71% !important;
+            bottom: 90%; 
+        }
+        .carousel-indicators
+        {
+            
+            top: 20% !important;
+            left: 18% !important;
+            bottom: 90%; 
+            li 
+            {
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                
+            }
+            .active
+            {
+                width: 24px;
+                height: 8px !important;
+                background: url('img/activeWhite.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+
+            }
+        }
+        .col-12
+        {
+            .col-6
+            {
+                // padding: 5%;
+                padding-top: 5%;
+                padding-bottom: 5%;
+                
+                .right
+                {
+                    position: relative;
+                    width: 80%;
+                    border-radius: 40px 10px 40px 10px; 
+                    margin-right: 18%;
+                    height: 370px;
+                    .cover
+                    {
+
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        top: 0;
+                        bottom: 0;
+                        border-radius:  40px 10px 40px 10px;
+                        background-image: linear-gradient(180deg,#b8cff78a,#2c41667a, #1f3864dc);
+                   
+         
+                        .positionContent
+                        {
+                             position: absolute;
+                                right: 5%;
+                                bottom: 5%;
+                                .date
+                                {
+                                    position: absolute;
+                                    right: 0%;
+                                    top: -30%;
+                                    
+                                }
+
+                        }
+                      
+                        span
+                        {
+                            color: white;
+                            font-size: 12px;
+                        }
+                        h4
+                        {
+                            text-align: right;
+                           
+                            color: white;
+                        }
+                        p
+                        {
+                            text-align: right;
+                           
+                            color: rgb(211, 209, 209);
+
+                        }
+                        button
+                        {
+                            border-radius: 0px 40px 0px 40px;
+                            text-align: right;
+                            float: right;
+
+                        }
+
+
+                    }
+                    .img1
+                    {
+                        border-radius:  40px 10px 40px 10px;
+                        height: 370px;
+                        width: 100%;
+                        background-size: 100% 100%;
+                     
+                       
+
+                    }
+
+                }
+                .left
+                {
+                    
+                    .up
+                    {
+                        width: 80%;
+                        position: relative;
+                        border-radius: 10px 40px 10px 40px;
+                        height: 180px;
+                        margin-bottom: 10px;
+                        margin-left: 18%;
+                        .cover
+                        {
+                            position: absolute;
+                            left: 0;
+                            right: 0;
+                            top: 0;
+                            bottom: 0;
+                            border-radius: 10px 40px 10px 40px; 
+                            background-image: linear-gradient(180deg,#b8cff78a,#2c41667a, #1f3864dc);
+                            .positionContent
+                            {
+                                 position: absolute;
+                                    right: 5%;
+                                    bottom: 1%;
+                                    .date
+                                    {
+                                        position: absolute;
+                                        right: 0%;
+                                        top: -30%;
+                                        
+                                    }
+    
+                            }
+                            span
+                            {
+                                color: white;
+                                font-size: 12px;
+                            }
+                            h4
+                            {
+                                text-align: right;
+                               
+                                color: white;
+                            }
+                            p
+                            {
+                                text-align: right;
+                               
+                                color: rgb(211, 209, 209);
+
+                            }
+    
+    
+                        }
+                        .img1
+                        {
+                            border-radius: 10px 40px 10px 40px;
+                            height: 180px;
+                            width: 100%;
+                            background-size: 100% 100%;
+                         
+                        }
+                        
+                    }
+                    .down
+                    {
+                        position: relative;
+                        margin-left: 18%;
+                        width: 80%;
+                        border-radius: 10px 40px 10px 40px; 
+                        height: 180px;
+                        .cover
+                        {
+                            position: absolute;
+                            left: 0;
+                            right: 0;
+                            top: 0;
+                            bottom: 0;
+                            border-radius: 10px 40px 10px 40px; 
+                            background-image: linear-gradient(180deg,#b8cff78a,#2c41667a, #1f3864dc);
+                            .positionContent
+                            {
+                                 position: absolute;
+                                    right: 5%;
+                                    bottom: 1%;
+                                    .date
+                                    {
+                                        position: absolute;
+                                        right: 0%;
+                                        top: -30%;
+                                        
+                                    }
+    
+                            }
+                            span
+                            {
+                                color: white;
+                                font-size: 12px;
+                            }
+                            h4
+                            {
+                                text-align: right;
+                               
+                                color: white;
+                            }
+                            p
+                            {
+                                text-align: right;
+                               
+                                color: rgb(211, 209, 209);
+
+                            }
+    
+    
+                        }    
+                        .img1
+                        {
+                            border-radius: 10px 40px 10px 40px;
+                            height: 180px;
+                            width: 100%;
+                            background-size: 100% 100%;
+                        }
+                  }
+
+                }
+            }
+        }
+      
+
+    }
+    .s9
+    {
+        position: relative;
+        width: 100%;
+        background-color: white;
+        .cover
+        {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background:url('img/bitmap_2.png');
+        }
+        .owl-carousel 
+        {
+            img
+            {
+                 background-color: none !important;  
+                border: none !important; 
+                width: 120px;
+                height: 120px;
+                margin-left: auto;
+                margin-right: auto
+            }
+            .owl-nav
+            {
+                button.owl-next
+                {
+                    position: absolute;
+                    right: 0;
+                    font-size: 50px;
+                    top: 20%;
+                    .span
+                    {
+                        font-size: 50px;
+                        
+                    }
+
+                }
+                button.owl-prev
+                {
+                    font-size: 50px;
+                    position: absolute;
+                    left: -6%;
+                    top: 20%;
+                    .span
+                    {
+                        font-size: 50px;
+                        
+                    }
+
+                }
+             
+                  
+            }
+            .owl-dots
+            {
+               
+
+                    .active 
+                    {
+
+                      
+                        span
+                        {
+                            
+                            background: url('img/activeBlue.png') no-repeat 100% 100%;
+                            width: 20px;
+                           
+                        }
+                  
+                    
+
+                }
+                
+
+            }
+
+        }
+       
+        
+    }
+    .s10
+    {
+        position: relative;
+        background: white;
+        height: 400px;
+        padding-bottom: 5%;
+        
+        .ground
+        {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            z-index: 15;
+          
+            .content
+            {
+               
+                width: 50%;
+                position: absolute;
+                top: 50%;
+                left: 30%;
+              
+                .sub
+                {
+                    width: 50%;
+                    border-radius: 30px;
+                    text-align: right;
+                    border: 1px solid white ;
+                    height: 50px;
+                    background: none;
+                    &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+                        color: white;
+                      }
+                    
+                }
+                button
+                {
+                    background: white;
+                    color: black;
+                    border-radius: 30px;
+                    width: 20%;
+                    position: absolute;
+                    left: 0.5%;
+                    height: 43px;
+                    top: 7%;
+                }
+                h4
+                {
+                    color: white;
+                    position: relative;
+                    margin-left: 9%;
+                }
+                img
+                {
+                    position: relative;
+                    left: 33%;
+                    top: 16%;
+                    margin-left: -30%;
+                }
+            }
+
+
+            background: url("img/rectangle_2.png") no-repeat ;
+            background-size: 100% 100%;
+          
+
+        }
+        .ground2
+        {
+            position: absolute;
+            left: 15%;
+            right: 15%;
+            background: rgb(207, 168, 77);
+            background-image: linear-gradient(to right,rgb(247, 215, 133),rgb(243, 194, 78), rgb(255, 179, 0));
+            top: 70%;
+            bottom: 0;
+            z-index: 16;
+            border-radius: 70px;
+            .btn
+            {
+                position: absolute;
+                background: white;
+                color:  rgb(255, 179, 0);
+                border-radius: 30px;
+                left: 7%;
+                top: 34%;
+            }
+            .text
+            {
+                position: absolute;
+                right: 14%;
+                top: 20%;
+                text-align: right;
+                color: white;
+            
+            }
+            .imgcover
+            {
+                background: url("img/oval-copy-5_2@3x.png");
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                height: 100px;
+                width: 100px;
+                position: absolute;
+                right: 2%;
+                top: 12%;
+                padding-top: 1%;
+                img
+                {
+                    background: none;
+                    border: none;
+                }
+            }
+        }
+
+    }
+    footer
+    {
+        background: rgb(235, 239, 242);
+        width: 100%;
+        
+        position: relative;
+        .col-12
+        {
+            
+            padding-top: 5%;
+            padding-bottom: 2%;
+            .part1
+            {
+                margin-top: 10%;
+
+                .row
+                {
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    
+                    .social,.imgCash
+                {
+                    width: 30px;
+                    margin-left: 1%;
+                    margin-right:1% ;
+                    height: 30px;
+                    cursor: pointer;
+                }
+                .imgCash
+                {
+                    margin-top: 5%;
+                    cursor: pointer;
+
+                }
+                
+                .circle
+                {
+                    width: 30px !important;
+                    height: 30px !important;
+                    border-radius: 50%;
+                    box-shadow:3px 3px 5px 6px rgb(255, 255, 255);
+                    padding: 5px;
+                    cursor: pointer;
+                    
+          
+
+                }
+    
+                }
+               
+    
+            }
+            .part2
+            {
+                .text-white
+                {
+                    color: rgb(196, 196, 196) !important;
+                    span
+                    {
+                        color: rgb(86, 100, 135) !important;
+                    }
+                    img
+                    {
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+            }
+            .part3
+            {
+                img
+                {
+                    margin-top: 30%;
+                    -webkit-box-shadow: 3px 3px 5px 6px white;
+                    box-shadow: 3px 3px 5px 6px white;
+                    border-radius: 80px;
+                    width: 90%;
+                    height: 90px;
+                    background-repeat: no-repeat;
+                    background-size: 100% 100%;
+                    padding-left: 20%;
+                 
+
+
+                }
+            }
+
+        }
+      
+    }
+.sideNav
+{
+    position: fixed;
+    padding: 15px;
+    bottom: 20%;
+    right: -1%;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    background: white;
+    width: 6%;
+    border-radius: 50px;
+    z-index: 8888;
+    img
+    {
+        margin-top: 10%;
+        margin-bottom: 10%;
+        cursor: pointer;
+    }
+    
+
+
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{
+    .sideNav
+    {
+        padding: 4px;
+        .uniq
+        {
+            margin-left: -29px !important;
+            width: 75px;
+        }
+
+    }
+    
+ 
+
+}
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{
+  .s2
+  {
+      .resize
+      {
+          padding: 15%;
+      }
+    .blue
+    {
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .proparites
+    {
+        img
+        {
+            height: 100px;
+        }
+    }
+  }
+  .s4
+  {
+      .left
+      {
+        left: 10% !important;
+
+      }
+      .right
+      {
+          left: 30%;
+
+      }
+      .right2
+      {
+          left: 77%;
+
+      }
+      .content
+      {
+        margin-top: 30% !important ;
+        .img
+        {
+            width: 100px !important;
+            height: 100px !important;
+            padding-top: 10px !important;
+
+        }
+        h5
+        {
+            font-size: 1rem;
+
+        }
+        .pragraphCarsouel
+        {
+            font-size: 14px !important;
+        }
+
+      }
+
+  }
+  .s5
+  {
+    .carousel-item
+    {
+        .col-md-3
+        {
+            .pic
+            {
+                
+                right: 0;
+
+                img
+                {
+                    height: 140px;
+                }
+                .cover
+                {
+                    p
+                    {
+
+                    }
+                }
+
+            }
+            .row
+            {
+                .btn1
+                {
+                    font-size: 10px;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                }
+                button
+                {
+                    font-size: 10px;
+
+
+                }
+
+            }
+           
+             
+
+        }
+   
+        
+    } 
+  }
+  .s10
+  {
+      .ground2
+      {
+          .text
+          {
+            right: 20%;
+              p
+              {
+                  font-size: 10px;
+              }
+              h4
+              {
+                  font-size: 1.2rem;
+              }
+          }
+      }
+
+  }
+  .sideNav
+  {
+      width: 8%;
+      padding: 6px;
+      .uniq
+      {
+          margin-left: -26px !important;
+          width: 75px;
+      }
+
+  }
+   
+  
+
+}
+@media only screen and (max-width: 767px) 
+{
+    .s1{
+        .carousel-caption
+        {
+            h5
+            {
+                font-size: 1.5rem !important;
+               
+            }
+            .pragraphCarsouel
+            {
+                color: #aaa;
+                font-size: 15px;
+    
+    
+            }
+        }
+    }
+    .s2
+    {
+      .blue
+      {
+          margin-left: 0% !important;
+          margin-right: 0% !important;
+          margin-top: 3%;
+          margin-bottom: 3%;
+      }
+    
+    }
+    .s3
+    {
+        .pragraphCarsouel
+        {
+            top: 50px !important;
+        }
+
+    }
+    .s4
+      {
+      .left
+      {
+        left: 6% !important;
+        bottom: 32%;
+        .LBlue
+        {
+            width: 80px !important;
+            height: 100px !important;
+            .img
+            {
+                height: 50px !important;
+                width: 75px !important;
+
+            
+            }
+            h5
+            {
+                line-height: 11px !important;
+
+
+            }
+
+
+        }
+        .LYellow
+        {
+            width: 30px;
+            height: 40px;
+            line-height: 35px;
+
+        }
+      }
+      .left2
+      {
+        left: 56% !important;
+        top: 10%;
+        .LBlue
+        {
+            width: 80px !important;
+            height: 100px !important;
+            .img
+            {
+                height: 50px !important;
+                width: 75px !important;
+
+            
+            }
+            h5
+            {
+                line-height: 11px !important;
+
+
+            }
+
+
+        }
+        .LYellow
+        {
+            width: 30px;
+            height: 40px;
+            line-height: 35px;
+
+        }
+      }
+      .right
+      {
+          left: 26%;
+          top: 10%;
+
+          .RBlue
+          {
+              width: 80px !important;
+              height: 100px !important;
+              .img
+              {
+                  height: 50px !important;
+                  width: 75px !important;
+  
+              
+              }
+              h5
+              {
+                  line-height: 11px !important;
+  
+  
+              }
+  
+  
+          }
+          .RYellow
+          {
+              width: 30px;
+              height: 40px;
+              line-height: 35px;
+              margin-right: 0px;
+              font-size: 6px;
+  
+          }
+
+      }
+      .right2
+      {
+          left: 77%;
+          bottom: 73%;
+          .RBlue
+          {
+              width: 80px !important;
+              height: 100px !important;
+              .img
+              {
+                  height: 50px !important;
+                  width: 75px !important;
+  
+              
+              }
+              h5
+              {
+                  line-height: 11px !important;
+  
+  
+              }
+  
+  
+          }
+          .RYellow
+          {
+              width: 30px;
+              height: 40px;
+              line-height: 35px;
+              margin-right: 0px;
+              font-size: 6px;
+
+  
+          }
+
+      }
+      .content
+      {
+        margin-top: 48% !important ;
+        .img
+        {
+            width: 100px !important;
+            height: 100px !important;
+            padding-top: 10px !important;
+
+        }
+        h5
+        {
+            font-size: 1rem;
+
+        }
+        .pragraphCarsouel
+        {
+            font-size: 14px !important;
+        }
+
+        }
+      }
+      .s5
+    {
+        padding-bottom: 55%;
+        .imgbutton
+        {
+            left: 35%;
+            right: 35%;
+            width: 30%;
+
+        }
+        .carousel-multi-item 
+        {
+            padding-left: 11%;
+
+        }
+        .carousel-item
+        {
+            width: 80%;
+
+            .col-md-3
+            {
+                margin-top: 7%;
+                margin-bottom: 8%;
+
+
+                .pic
+                {
+                
+                    right: 0;
+                    .cover
+                    {
+                        p
+                        {
+                            margin-right: 19%;
+                            // margin-top: 10%;
+
+                        }
+                    }
+
+                    img
+                    {
+                        height: 140px;
+                    }
+                    h4
+                    {
+                        margin-right: 10% !important;
+
+                    }
+
+                }
+                .row
+                {
+                
+
+                }
+            
+                
+
+            }
+    
+            
+        } 
+    }
+    .s6
+    {
+        .cover
+        {
+            height: 700px;
+            .head
+            {
+                top: 10%;
+            }
+
+        }
+      
+     
+        .col-12
+        {
+            .contentLeft
+            {
+
+                height: 190px;
+                .border
+                {
+                    height: 170px;
+                    h4
+                    {
+                        font-size: 1.1rem;
+
+                    }
+                    button
+                    {
+                        font-size: 0.9rem;
+                    }
+
+                }
+
+            }
+            .contentMidel
+            {
+                height: 190px;
+                .border
+                {
+                    height: 170px;
+                    h4
+                    {
+                        font-size: 1.1rem;
+
+                    }
+                    button
+                    {
+                        font-size: 0.9rem;
+                    }
+
+
+                }
+
+            }
+            .contentRightup
+            {
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5%;
+
+            }
+            .contentRight
+            {
+                
+                height: 190px;
+                .border
+                {
+                    height: 170px;
+                    h4
+                    {
+                        font-size: 1.1rem;
+
+                    }
+                    button
+                    {
+                        font-size: 0.9rem;
+                    }
+
+                }
+
+            }
+
+        }
+       
+    }
+    .s7
+    {
+        button
+        {
+            width: 25%;
+        }
+        .container
+        {
+            padding-top: 20%;
+            padding-bottom: 20%;
+            .carousel-inner
+            {
+                .carousel-item
+                {
+                    .col-md-6
+                    {
+                        padding-right: 50px;
+                        padding-left: 50px;
+    
+                    }
+                }
+    
+            }
+
+        }
+     
+    }
+    .s8
+    {
+        .col-12 
+        {
+            .col-6
+            {
+                .left
+                {
+                    .up
+                    {
+                        .cover
+                        {
+                            h4
+                            {
+                                font-size: 1rem;
+                            }
+                            p
+                            {
+                                font-size: 9px;
+                            }
+                            span
+                            {
+                                font-size: 5px;
+
+                            }
+
+                        }
+
+                    } 
+                    .down
+                    {
+                        .cover
+                        {
+                            h4
+                            {
+                                font-size: 1rem;
+                            }
+                            p
+                            {
+                                font-size: 9px;
+                            }
+                            span
+                            {
+                                font-size: 5px;
+
+                            }
+
+                        }
+
+                    }
+
+                }
+                .right
+                {
+                    .cover
+                    {
+                        h4 
+                        {
+                            font-size: 1rem;
+
+
+                        }
+                        p
+                        {
+                            font-size: 10px;
+                        }
+                        button
+                        {
+                            font-size: 10px;
+
+                        }
+                        span
+                        {
+                            font-size: 5px;
+
+                        }
+                        
+                    }
+
+                }
+
+            }
+
+        }
+        
+    }
+    .s9
+    {
+        position: relative;
+        width: 100%;
+        background-color: white;
+        .cover
+        {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background:url('img/bitmap_2.png');
+        }
+        .owl-carousel 
+        {
+   
+            .owl-nav
+            {
+                button.owl-next
+                {
+       
+                    
+                    right: 6% ;
+                  
+                }
+                button.owl-prev
+                {
+            
+                    left: 0%;
+                
+                }
+             
+                  
+            }
+          
+
+        }
+       
+        
+    }
+    .s10
+    {
+        .ground 
+        {
+            .content
+            {
+                width: 100%;
+                left: 5%;
+                h4
+                {
+                    margin-left: 4%;
+
+                }
+                .sub
+                {
+                    font-size: 9px;
+                    width: 40%;
+
+                }
+                button
+                {
+                    top: 8%;
+                    left: 1%;
+                    font-size: 15px;
+                    height: 40px;
+                  
+                    
+
+                }
+            }
+        }
+        .ground2
+        {
+            .imgcover
+            {
+                width: 50px;
+                height: 50px;
+                top: 20%;
+
+                img
+                {
+                    height: 40px;
+                }
+            }
+            .btn
+            {
+                font-size: 5px;
+            }
+            .text
+            {
+              right: 20%;
+                p
+                {
+                    font-size: 5px;
+                }
+                h4
+                {
+                    font-size: 0.9rem;
+                }
+            }
+        }
+        
+    }
+    .sideNav
+    {
+        width: 11%;
+        padding: 4px;
+        .uniq
+        {
+            margin-left: -26px !important;
+            width: 75px;
+        }
+  
+    }
+    footer
+    {
+        .col-12
+        {
+            padding-bottom: 18%;
+            .part1
+            {
+                
+                .row
+                {
+                .social
+                {
+                    width: 20px !important;
+                    height: 20px !important;
+                }
+                .circle
+                {
+                    width: 20px  !important;
+                    height: 20px  !important;
+                }
+                .imgCash
+                {
+                    width: 25px  !important;
+                    height: 25px  !important;
+
+                }
+            }
+
+            }
+            .part2
+            {
+                margin-top: 5%;
+                margin-bottom: 5%;
+                .nav-item
+                {
+                    a
+                    {
+                        font-size: 18px;
+
+                    }
+                   
+
+                }
+
+            }
+            .part3
+            {
+                img
+                {
+                    width: 50%;
+                    height: 65px;
+                    margin-top: 5%;
+
+                }
+             
+            }
+        }
+    }
+ 
+
+}    
+@media only screen and (max-width: 450px) 
+{
+
+
+    
+}       
+     
+ 

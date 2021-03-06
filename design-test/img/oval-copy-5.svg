@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="114" height="271" viewBox="0 0 114 271">
+    <defs>
+        <linearGradient id="prefix__c" x1="50.007%" x2="99.757%" y1="70.993%" y2="50%">
+            <stop offset=".013%" stop-color="#D2A433"/>
+            <stop offset="100%" stop-color="#F1C560"/>
+        </linearGradient>
+        <filter id="prefix__a" width="238.2%" height="238.2%" x="-69.1%" y="-67.7%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="33"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0.356862745 0 0 0 0 0.917647059 0 0 0 0.330337631 0"/>
+        </filter>
+        <circle id="prefix__b" cx="72.38" cy="505.45" r="72.38"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(-94 -372)">
+        <use fill="#000" filter="url(#prefix__a)" xlink:href="#prefix__b"/>
+        <use fill="url(#prefix__c)" xlink:href="#prefix__b"/>
+    </g>
+</svg>

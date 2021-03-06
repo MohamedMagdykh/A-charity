@@ -1,0 +1,66 @@
+
+<nav class="navbar  fixed-top navbar-default scrolled" id="navbarcolor">
+    <div class="container">
+        <div class="btns col-6">
+            <button class=" btn-list col-4" onclick="openNav()">
+                القائمة &nbsp;&nbsp;&nbsp;
+                <i class="fas fa-stream"></i>
+            
+
+            </button>
+            <button class="btn-E text-center col-4" style="  margin-left: 5%;
+            margin-right: 5%;" >
+            E
+            </button>
+            <button class=" btn-E text-center col-4" >
+                <i class="fas fa-shopping-cart" style="margin-left: -75%;"></i>
+                <div class="notification">2</div>
+            </button>
+       </div>
+
+
+
+      <div class=" d-xs-flex col-6 ">
+          <img class="logo" src="img/logo_2.png" alt="">
+  
+        
+        
+      </div>
+         
+
+    </div>
+    <div id="myNav" class="overlay" style="width: 0%;">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <ul id="hide-nav" class="navbar-nav w-fit mx-auto text-center" style="display: none;">
+        <li class="nav-item active">
+          <a class="nav-link" href="/Components/Home/home.html" data-localize="navHome">Home            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/Components/Home/home.html#servicesSection" onclick="closeNav()" data-localize="navServices">Our Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="/Components/Home/home.html#about" onclick="closeNav()" data-localize="navAbout">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/Components/OurWork/ourWork.html" data-localize="navWork">Our Work</a>
+        </li>
+      
+        <li class="nav-item">
+          <a class="nav-link" href="/Components/OurClients/ourClient.html" data-localize="navClients">Our Clients</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/Components/Career/career.html" data-localize="navCareers">Careers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/Components/ContactUs/contactUs.html" data-localize="navContact">Contact Us</a>
+        </li>
+      
+                <li class="nav-item d-lg-none">
+          <a class="translate ar" style="text-align: center;" id="ar">عربي</a>
+          <a class="translate en" id="en">English</a>
+
+        </li>
+               </ul>
+    </div>
+    </nav>

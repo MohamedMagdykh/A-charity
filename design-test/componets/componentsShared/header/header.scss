@@ -1,0 +1,211 @@
+
+
+.navbar-default.scrolled {
+    background: none;
+}
+
+
+
+.overlay{
+    z-index: 1031;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #38B2F3;
+    overflow-x: hidden;
+    transition: 0.5s;
+    .closebtn {
+        position: absolute;
+        top: 20px;
+        
+        font-size: 60px;
+        left: 20%;
+        text-decoration: none;
+
+        
+
+    }
+    a{
+        padding: 8px;
+        text-decoration: none;
+        font-size: 28px;
+        color: #fff;
+        display: block;
+        transition: 0.3s;
+        letter-spacing: 2px;
+        filter: drop-shadow(2px 4px 6px white);
+        &:hover{
+            color: rgb(93, 94, 95);
+            filter: drop-shadow(2px 4px 6px rgb(93, 94, 95));
+        }
+    }
+    #hide-nav {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                a{
+                    &:hover{
+                        transform: scale(1.1);
+                        
+                    }
+                }
+
+              }
+            
+}
+    nav
+    {
+        top: 20px ;
+        .container
+        {
+            // margin-right: 1%;
+            // margin-left: 5%;
+            padding-right: 0px;
+            padding-left: 0px;
+                .logo
+            {
+            
+                background-size: 100% 100%;
+                width: 200px;
+                height: 50px;
+                width: 250px;
+                height: 75px; 
+                text-align: right;
+                float: right;
+
+            }
+            .btns
+            {
+                width: 35%;
+                .btn-list
+                {
+                    color: white;
+                    font-size: 1vw;
+                    background:transparent;
+                    border: 1px solid rgba(255, 255, 255, 0.664);
+                    width: 130px;
+                    height: 40px;
+                    border-radius: 30px;
+                    
+                    &:hover
+                    {
+                        background:#38B2F3; ;
+                    }
+                    
+                }
+                .btn-E
+                {
+                    color: white;
+                    position: relative;
+                    font-size: 1vw;
+                    background:transparent;
+                    border: 1px solid rgba(255, 255, 255, 0.664);
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    
+                    .notification
+                    {
+                        width: 15px;
+                        height: 15px;
+                        background:rgb(235, 182, 50) ;
+                        color: white;
+                        border-radius: 50%;
+                        font-size: 10px;
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        
+                    }
+                    &:hover
+                    {
+                        background:#38B2F3; ;
+                    }
+                  
+    
+                }
+
+            }
+           
+
+
+
+        }
+
+    }
+
+    @media only screen and (min-width: 992px) and (max-width: 1199px)
+    {
+        
+    
+    
+    }
+    @media only screen and (min-width: 768px) and (max-width: 991px)
+    {
+        nav
+        {
+            .btn-E,.btn-list
+            {
+                font-size: 15px !important;
+            }
+            
+        }
+       
+      
+    
+    }
+    @media only screen and (max-width: 767px) 
+    {
+        nav
+        {
+            
+            .btn-E,.btn-list
+            {
+                font-size: 1.4vw !important;
+                font-weight: bold;
+            }
+            .btn-list
+            {
+                width: 100px !important;
+                height: 30px !important;
+
+            }
+            .btn-E
+            {
+                width: 30px !important;
+                height: 30px !important;
+                font-size: 15px !important;
+                padding-right: 8% !important;
+                
+
+            }
+            .logo
+            {
+            
+                
+                width: 150px !important;
+                height: 50px !important;
+              
+
+            }
+          
+            
+        }
+        .col-6 ,.col-4
+        {
+            padding-right: 0px !important;
+            padding-left: 9px !important;
+        }
+     
+    
+    }    
+    @media only screen and (max-width: 450px) 
+    {
+       
+     
+    
+        
+    }  
